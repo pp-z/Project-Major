@@ -1,0 +1,10 @@
+{salary- <30k$,gender-female} = 2
+{age- < 20,salary- <30k$,gender-male,20} = 2
+{salary- <30k$,gender-male,age- < 20} = 2
+{salary- <30k$,gender-male,age-between 20 and 40,18} = 2
+{salary- <30k$,age- < 20,age- < 20} = 2
+{gender-male,20,age-between 20 and 40,salary-between 30k$ and 60k$} = 2
+{gender-male,age-between 20 and 40,salary-between 30k$ and 60k$,age- < 20} = 3
+{gender-male,salary-between 30k$ and 60k$,age- < 20,age- < 20} = 2
+{age-between 20 and 40,salary-between 30k$ and 60k$,gender-female} = 3
+{age-between 20 and 40,gender-female,age- < 20} = 2

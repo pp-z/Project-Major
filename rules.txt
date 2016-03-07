@@ -1,0 +1,1 @@
+male=>13%\nbetween 20 and 40=>13%\nbetween 20 and 40,male=>13%\n
